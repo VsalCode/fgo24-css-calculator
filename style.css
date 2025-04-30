@@ -62,17 +62,17 @@
 }
 
 .number>section{
-  align-content: center;  
-  grid-template-columns: repeat(5, 1fr);
-  padding: 2px 0;
-  gap: 0;
+  padding-top: 5px;
+  display: grid;
+  grid-template-areas: 
+  "a b c c";
 }
 
 .number>section>button{
   background-color: #061214;
   color: white;
-  width: 70px;
-  height: 70px;
+  /* width: 70px; */
+  /* height: 70px; */
   border: none;
   font-size: 1.5rem;
   }
